@@ -19,4 +19,27 @@ nav {
 /* tady piš svoje CSS */
 /* -------------------------------------------- */
 
+.container {
+	display: flex;
+}
 
+.navigation {
+	flex-basis: 20%;
+}
+
+.main {
+	flex-grow: 1;
+}
+
+.main-section {
+	display: flex;
+	justify-content: flex-end;
+}
+
+aside {
+	flex-basis: 40vh;
+}
+
+.main-left {
+	flex-grow: 1;
+}

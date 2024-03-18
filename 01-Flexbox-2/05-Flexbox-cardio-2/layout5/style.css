@@ -20,3 +20,12 @@ nav {
 /* -------------------------------------------- */
 
 
+.main {
+	display: flex;
+}
+
+nav,
+article,
+aside {
+	flex-basis: 33.33%;
+}
